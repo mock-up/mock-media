@@ -11,3 +11,8 @@ srcDir        = "src"
 
 requires "nim >= 1.6.6"
 requires "ffmpeg >= 0.5.2"
+
+# Tasks
+
+task example, "run example":
+  exec "cd example && nimble run"
